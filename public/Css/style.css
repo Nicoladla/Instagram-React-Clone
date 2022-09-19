@@ -1,0 +1,422 @@
+*{box-sizing: border-box;}
+
+body{
+    background: #FAFAFA;
+    font-family: 'Arial';
+}
+/*Inicio barra do topo*/
+.barra-topo-geral{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: inline;
+}
+.barra-topo{
+    background-color: #ffffff;
+    width: 935px;
+    height: 54px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.borda{
+    background-color: #DBDBDB;
+    width: 1px;
+    height: 22px;
+    margin: 0 10px;
+}
+.barra-topo ion-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.barra-topo div:first-child{
+    display: flex;
+    align-items: center;
+}
+.barra-topo div:first-child img{
+    cursor: pointer;
+}
+
+.barra-topo div:last-child{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.caixa-pesquisar{
+    color: #979797;
+    font-weight: 400;
+    font-size: 12px;
+    width: 215px;
+    height: 28px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barra-topo-mobile{
+    box-sizing: border-box;
+    border-bottom: 1px solid #DBDBDB;
+    background-color: #ffffff;
+    width: 100%;
+    height: 54px;
+    padding: 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.barra-topo-mobile ion-icon{
+    font-size: 20px;
+}
+.barra-baixo-mobile{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 100%;
+    height: 54px;
+    padding: 0 22px;
+    border-top: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.barra-baixo-mobile ion-icon{
+    font-size: 20px;
+}
+/*Fim barra do topo*/
+/*Inicio da caixa dos Stories*/
+.caixa-stories{
+    margin-top: 88px;
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.caixa-stories ion-icon{
+    color: white;
+    font-size: 26px;
+    filter: drop-shadow(1px 3px 4px rgba(112, 111, 111, 0.74));
+    cursor: pointer;
+    position: absolute;
+    top:46px;
+    right: 8px;
+}
+.story{
+    text-align: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.story p{
+    font-size: 15px;
+}
+.story div{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background-image: url(../img/stories_background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgStory{
+    width: 48px;
+    border-radius: 100%;
+}
+/*Fim da caixa dos Stories*/
+/*Inicio do conteudo*/
+.conteudo{
+    background-color: #FFFFFF;;
+    width: 614px;
+    height: auto;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 60px;
+}
+
+.barra-superior{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.barra-superior div{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+.barra-superior img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.barra-superior p{
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.barra-superior p:hover{
+    text-decoration: underline;
+}
+.barra-superior ion-icon{
+    width: 5%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.conteudo > img{
+    width: 612px;
+}
+
+.barra-inferior{
+    width: 100%;
+    height: 76px;
+}
+.barra-inferior ion-icon{
+    font-size: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.post-normal{
+    color: black;
+    visibility: visible;
+}
+.post-curtido{
+    color:red;
+    visibility: visible;
+}
+.barra-inferior ion-icon:last-child{
+    margin-right: 15px;
+}
+.barra-inferior > div:first-child{
+    width: 100%;
+    height: 50%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.barra-inferior > div:last-child{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px
+}
+.barra-inferior img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.barra-inferior p{
+    font-size: 14px;
+    margin-left: 5px;
+}
+/*Fim do conteudo*/
+/*Inicio Sidebar*/
+.sidebar{
+    width: 293px;
+    padding-top: 23px;
+    margin-top: 88px;
+    margin-left: 29px;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+}
+.perfil img{
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.perfil img:hover{
+    opacity: 0.8;
+}
+.perfil div > p:first-child{
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.perfil div > p:first-child:hover{
+    text-decoration: underline;
+}
+.perfil span{
+    display: flex;
+    margin-top: 5px;
+}
+.perfil span p{
+    color: #8E8E8E;
+    font-size: 14px;
+}
+.perfil ion-icon{
+    color: #636363;
+    font-size: 14px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.indicador{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.indicador p:first-child{
+    color: #8E8E8E;
+    font-size: 12px;
+}
+.indicador p:last-child{
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+.indicador p:last-child:hover{
+    text-decoration: underline;
+}
+.sugestões{
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+.sugestões > div{
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sugestões img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin-right: 11px;
+    cursor: pointer;
+}
+.sugestões p:nth-child(1){
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.sugestões p:nth-child(1):hover{
+    text-decoration: underline;
+}
+.sugestões > div > div > p:nth-child(2){
+    color: #8E8E8E;
+    font-size: 12px;
+}
+.sugestões > div > p{
+    color: #139EF2;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+.sugestões > div > p:hover{
+    text-decoration: underline;
+}
+.sidebar>p{
+    color: #C7C7C7;
+    margin-top: 33px;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.toda-pagina{
+    width: 935px;
+    margin:0 auto;
+    display: flex;
+}
+/*Fim Sidebar*/
+/*Inicio do Layout sem sidebar*/
+@media(max-width:935px){
+    .sidebar{
+        display: none;
+    }
+    .toda-pagina{
+        width: 614px;
+    }
+    .barra-topo{
+        width: 95%;
+    }
+}
+/*Fim do Layout sem sidebar*/
+/*Inicio do Layout mobile*/
+@media(max-width:614px){
+    .toda-pagina{
+        width: 100%;
+    }
+    .storie-conteudo{
+        width: 100%;
+    }
+    .barra-topo{
+        display: none;
+    }
+    .barra-topo-mobile{
+        display: inline-flex;
+    }
+    .barra-baixo-mobile{
+        display: inline-flex;
+    }
+    
+    .caixa-stories{
+        background-color: #FAFAFA;
+        width: 100%;
+        border: none;
+        border-radius: none;
+        margin-top: 52px;
+        margin-bottom: 0;
+        overflow: auto;
+    }
+    .caixa-stories ion-icon{
+        display: none;
+    }
+
+    .conteudo{
+        width: 100%;
+        height: auto;
+        border: none;
+        border-top: 1px solid #DBDBDB;
+        border-bottom: 1px solid #DBDBDB;
+    }
+    .conteudo > img{
+        width: 100%;
+        height: auto;
+    }
+
+    .barra-superior img{
+        width: auto;
+        height: 50%;
+    }
+
+    .barra-inferior img{
+        width: auto;
+        height: 50%;
+        border-radius: 100%;
+    }
+}
+/*Fim do Layout mobile*/
