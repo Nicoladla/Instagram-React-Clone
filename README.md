@@ -18,28 +18,46 @@ O usuário tem a possibilidade de curtir posts, mudar o nome de usuário e tamb�
   <img width="200" src="public/img/InstagramReact-mobile-Animação.gif" alt="Instagram-gif">
 </p>
 
-* Você pode acessar essa aplicação nesse link:
-[https://instagram-react-nicoladla.vercel.app/](https://instagram-react-nicoladla.vercel.app/)
+- Você pode acessar essa aplicação nesse link:
+  [https://instagram-react-nicoladla.vercel.app/](https://instagram-react-nicoladla.vercel.app/)
 
-* Você também pode acessar o repositório de uma primeira versão dessa mesma aplicação, que foi feita usando **HTML**:
-[https://github.com/Nicoladla/Instagram-Clone](https://github.com/Nicoladla/Instagram-Clone)
+- Você também pode acessar o repositório de uma primeira versão dessa mesma aplicação, que foi feita usando **HTML**:
+  [https://github.com/Nicoladla/Instagram-Clone](https://github.com/Nicoladla/Instagram-Clone)
 
 ---
 
 ## Informações técnicas
 
-Essa aplicação foi desenvolvida utilizando as tecnologias: 
-* CSS
-* JavaScript
-* React.js
-* IonIcons
+Essa aplicação foi desenvolvida utilizando as tecnologias:
+
+- CSS
+- JavaScript
+- React.js
+- IonIcons
 
 ### Como iniciar o projeto na minha máquina?
 
-* O primeiro passo é você fazer o download do projeto para sua máquina ou então clonar esse repositório através do seu terminal:
+- O primeiro passo é você fazer o download do projeto para sua máquina: [Download ZIP](https://github.com/Nicoladla/Instagram_React/archive/refs/heads/main.zip)
 
-```
-git clone https://github.com/Nicoladla/Instagram-Clone.git
-```
+- Ou então clonar esse repositório através do seu terminal:
 
-* Após isso, você pode entrar na pasta do projeto e abrir o arquivo ``index.html`` no seu navegador.
+  ```
+  git clone https://github.com/Nicoladla/Instagram_React.git
+  ```
+
+- Com o projeto na sua máquina, abra o seu editor de código favorito e então, dentro do seu projeto no seu terminal, execute o comando:
+
+  ```
+  npm install
+  ```
+
+- Após isso, basta inicializar sua aplicação:
+
+  ```
+  npm start
+  ```
+
+- Por fim, ao executar esse comando, uma janela no seu navegador se abrirá com a aplicação, mas caso isso não ocorra, você poderá acessá-lá colocando esse link no seu navegador:
+  ```
+  localhost:3000/
+  ```
